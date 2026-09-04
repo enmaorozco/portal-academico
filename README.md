@@ -8,10 +8,10 @@ Plataforma web educativa construida con **Next.js 15 (App Router)**, **TypeScrip
 
 La aplicación cuenta con usuarios genéricos preconfigurados directamente en el código para pruebas y demostración rápida:
 
-| Rol | Usuario | Contraseña | Capacidades |
-|---|---|---|---|
-| 👨‍🏫 **Maestro / Profesor** | `maestro` *(o `profesor`)* | `maestro123` *(o `profesor123`)* | Registrar estudiantes, crear tareas con fecha de entrega, previsualizar entregas PDF en visor integrado y asignar notas con comentarios formativos. |
-| 🎓 **Estudiante** | `estudiante` | `estudiante123` | Consultar tareas asignadas, subir archivos de entrega estrictamente en formato **PDF**, visualizar sus entregas y ver calificaciones y comentarios del profesor. |
+| Rol                       | Usuario                    | Contraseña                       | Capacidades                                                                                                                                                      |
+| ------------------------- | -------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 👨‍🏫 **Maestro / Profesor** | `maestro` _(o `profesor`)_ | `maestro123` _(o `profesor123`)_ | Registrar estudiantes, crear tareas con fecha de entrega, previsualizar entregas PDF en visor integrado y asignar notas con comentarios formativos.              |
+| 🎓 **Estudiante**         | `estudiante`               | `estudiante123`                  | Consultar tareas asignadas, subir archivos de entrega estrictamente en formato **PDF**, visualizar sus entregas y ver calificaciones y comentarios del profesor. |
 
 > **Nota:** La pantalla de inicio de sesión (`/`) incluye botones de **Acceso Rápido (1 Clic)** para alternar entre el Maestro y el Estudiante sin tener que escribir las credenciales manualmente.
 
@@ -55,11 +55,13 @@ La aplicación cuenta con usuarios genéricos preconfigurados directamente en el
 ## 🛠️ Ejecución
 
 1. Instalar dependencias:
+
    ```bash
    npm install
    ```
 
 2. Iniciar el servidor de desarrollo:
+
    ```bash
    npm run dev
    ```
